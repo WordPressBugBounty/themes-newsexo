@@ -1,0 +1,26 @@
+.customize-control-newsexo-dimensions {
+	position: relative;
+}
+
+.customize-control-newsexo-dimensions .wrapper {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+
+.customize-control-newsexo-dimensions .wrapper .control {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.customize-control-newsexo-dimensions .wrapper .control > div {
+	width: 48%;
+}
+
+.customize-control-newsexo-dimensions .wrapper .control > div h5 {
+	margin: 10px 0 7px;
+}
+
+.customize-control-newsexo-dimensions .wrapper .control > div .inner {
+	display: flex;
+}

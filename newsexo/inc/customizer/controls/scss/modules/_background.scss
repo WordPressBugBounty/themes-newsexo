@@ -1,0 +1,34 @@
+.customize-control-newsexo-background {
+	position: relative;
+}
+
+.customize-control-newsexo-background .background-attachment h4,
+.customize-control-newsexo-background .background-color h4,
+.customize-control-newsexo-background .background-position h4,
+.customize-control-newsexo-background .background-repeat h4,
+.customize-control-newsexo-background .background-size h4 {
+	margin-bottom: 5px;
+}
+
+.customize-control-newsexo-background .background-attachment .buttonset,
+.customize-control-newsexo-background .background-size .buttonset {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.customize-control-newsexo-background .background-attachment .buttonset .switch-label,
+.customize-control-newsexo-background .background-size .buttonset .switch-label {
+	background: rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	color: #555;
+	padding: 0.5em 1em;
+	margin: 0;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.customize-control-newsexo-background .background-attachment .buttonset .switch-input:checked + .switch-label,
+.customize-control-newsexo-background .background-size .buttonset .switch-input:checked + .switch-label {
+	background-color: #3498DB;
+	color: #fff;
+}

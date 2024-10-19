@@ -1,0 +1,1032 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NewsExo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-05 10:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.6.2\n"
+"X-Domain: newsexo"
+
+#: comments.php:32
+msgid "% comments"
+msgstr ""
+
+#: footer.php:53
+#, php-format
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: inc/class-bootstrap-navwalker.php:207
+msgid "Add a menu"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:630
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:663
+msgid "Add Icon"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:45
+msgid "Add new icon"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:77
+#: template-parts/widgets/register-sidebars.php:92
+#: template-parts/widgets/register-sidebars.php:107
+msgid "Add widgets in footer widget area"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:62
+msgid "Add widgets in footer widget area one"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:31
+msgid "Add widgets in front page"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:47
+msgid "Add widgets in frontpage sidebar"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:15
+msgid "Add widgets in primary sidebar widget area"
+msgstr ""
+
+#: template-parts/widgets/grid-view-news.php:133
+#: template-parts/widgets/list-view-news.php:133
+#: template-parts/widgets/list-view-news2.php:95
+msgid "All Category"
+msgstr ""
+
+#: inc/customizer/controls/code/newexo-customize-upgrade-control.php:36
+msgid "and get the other advanced pro features."
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:82
+msgid "Archive Blog"
+msgstr ""
+
+#: inc/template-functions.php:130
+msgid "Archive by category"
+msgstr ""
+
+#: inc/template-functions.php:503
+msgid "Arile Demo Import"
+msgstr ""
+
+#: inc/template-functions.php:504
+msgid "Arile Demo Importer"
+msgstr ""
+
+#: inc/template-functions.php:55
+msgid "at"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-header-customizer-settings.php:56
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-header-banner-customizer-settings.php:28
+msgid "Banner Advertisement Settings"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-header-banner-customizer-settings.php:41
+msgid "Banner Enable/Disable"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:69
+msgid "Banner Image"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-header-banner-customizer-settings.php:69
+msgid "Banner Link"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:147
+msgid "Base Typography"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:70
+msgid "Best Recommended Size is (980px*90px)."
+msgstr ""
+
+#: inc/template-functions.php:541
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:54
+msgid "Blog Page"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:70
+msgid "Blog/Archive Post"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-archive-post-customizer-settings.php:29
+msgid "Blog/Archive Settings"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:84
+msgid "Blog/News Category"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-theme-breadcrumbs-customizer-settings.php:40
+msgid "Breadcrumb Enable/Disable "
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-theme-breadcrumbs-customizer-settings.php:27
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:86
+msgid "Breadcrumbs"
+msgstr ""
+
+#. Name of the template
+#: page-templates/pagebuilder.php:2
+msgid "Builder Page"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:279
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr ""
+
+#: template-parts/widgets/grid-view-news.php:131
+#: template-parts/widgets/list-view-news.php:131
+#: template-parts/widgets/list-view-news2.php:93
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:94
+msgid "Category Colors"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-base-control.php:25
+msgid "Clear"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-base-control.php:26
+msgid "Clear color"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:333
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-base-control.php:30
+msgid "Color value"
+msgstr ""
+
+#: comments.php:69
+msgid "Comment"
+msgstr ""
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: footer.php:16
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:341
+msgid ""
+"Copyright &copy; 2024 | Powered by <a href=\"//wordpress.org/\">WordPress</a>"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:346
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/template-functions.php:373
+msgid "Customize Site"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-site-top-header-customizer-settings.php:55
+msgid "Day & Date Enable/Disable"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-base-control.php:27
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:26
+msgid "Default Page"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:367
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:270
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Description"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:351
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-news-slider-customizer-settings.php:55
+msgid "Disable News Slider section on blog page"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-trending-news-customizer-settings.php:55
+msgid "Disable Trending News section on blog page"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-header-banner-customizer-settings.php:54
+msgid "Display Logo Center Enable/Disable"
+msgstr ""
+
+#: template-parts/widgets/grid-view-news.php:19
+msgid "Display your blog in a grid view layout"
+msgstr ""
+
+#: template-parts/widgets/list-view-news.php:19
+#: template-parts/widgets/list-view-news2.php:19
+msgid "Display your blog in a grid view with a list layout"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-functions.php:189
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: comments.php:61
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:140
+#: inc/customizer/customizer-settings/theme-settings/newsexo-typography-customizer-settings.php:32
+msgid "Enable Typography"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-trending-news-customizer-settings.php:42
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/template-functions.php:167
+msgid "Error 404"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-archive-post-customizer-settings.php:46
+msgid "Excerpt"
+msgstr ""
+
+#: template-parts/index-featured-news.php:3
+#: inc/customizer/newsexo-customizer-options.php:292
+msgid "FEATURED NEWS"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:114
+msgid "Featured News"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:121
+msgid "Featured News Category"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-featured-news-customizer-settings.php:41
+msgid "Featured News Enable/Disable"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-featured-news-customizer-settings.php:28
+msgid "Featured News Settings"
+msgstr ""
+
+#: template-parts/site-header.php:6
+#: inc/customizer/newsexo-customizer-options.php:260
+msgid "Follow Us"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:146
+#: inc/customizer/newsexo-customizer-options.php:159
+#: inc/customizer/newsexo-customizer-options.php:172
+#: inc/customizer/newsexo-customizer-options.php:185
+#: inc/customizer/newsexo-customizer-options.php:198
+#: inc/customizer/newsexo-customizer-options.php:211
+#: inc/customizer/newsexo-customizer-options.php:224
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-typography-customizer-settings.php:48
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:49 inc/customizer/newsexo-panels-and-sections.php:103
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:116
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-footer-copyright-customizer-settings.php:29
+msgid "Footer Copyright Enable/Disable"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:105
+msgid "Footer Sidebar Four"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:60
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:90
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:75
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-footer-widget-customizer-settings.php:30
+msgid "Footer Widget Area Enable/Disable"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:109
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/template-functions.php:517
+msgid "Free vs Pro"
+msgstr ""
+
+#. Name of the template
+#: page-templates/frontpage.php:2
+msgid "Frontpage"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:29
+msgid "FrontPage Content"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:209
+msgid "Frontpage Section Ordering"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:29
+msgid "Frontpage Sections"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:45
+msgid "FrontPage Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-archive-post-customizer-settings.php:47
+msgid "Full Content"
+msgstr ""
+
+#. Name of the template
+#: page-templates/fullwidth.php:1
+msgid "Full Width Page"
+msgstr ""
+
+#: searchform.php:4
+msgid "Go"
+msgstr ""
+
+#: 404.php:22
+msgid "Go Back Now"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-typography-control.php:50
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:57
+msgid "Header Banner"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-site-top-header-customizer-settings.php:42
+#: inc/customizer/customizer-settings/theme-settings/newsexo-header-customizer-settings.php:42
+msgid "Header Enable/Disable"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:22
+#: inc/customizer/customizer-settings/theme-settings/newsexo-header-customizer-settings.php:29
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:161
+msgid "Headings H1"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:167
+msgid "Headings H2"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:173
+msgid "Headings H3"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:179
+msgid "Headings H4"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:185
+msgid "Headings H5"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:191
+msgid "Headings H6"
+msgstr ""
+
+#: inc/template-functions.php:354
+msgid "Hello, "
+msgstr ""
+
+#: inc/template-functions.php:125 inc/template-functions.php:128
+#: inc/template-functions.php:541
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:544
+msgid "http://fontawesome.io/icons/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themearile.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themearile.com/newsexo-theme/"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:538
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:598
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:561
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:595
+msgid "Image type"
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:39
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:67
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:95
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:123
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:62
+msgid "Layout Settings"
+msgstr ""
+
+#: comments.php:75
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:290
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:437
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:622
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:644
+msgid "Link"
+msgstr ""
+
+#: comments.php:71
+msgid "Logged in as"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-header-banner-customizer-settings.php:55
+msgid "Logo center will be enabled when the banner is disabled"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-site-animation-customizer-settings.php:58
+msgid "Logo Width"
+msgstr ""
+
+#: comments.php:71
+msgid "Logout"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:154
+msgid "Menu Bar"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-menu-bar-customizer-settings.php:27
+msgid "Menu Settings"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-menu-bar-customizer-settings.php:42
+msgid "Menu Style"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:53
+msgid "MenuBar Options"
+msgstr ""
+
+#: comments.php:60
+msgid "Name"
+msgstr ""
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:135
+msgid "News Category"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:91
+msgid "News Slider"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-news-slider-customizer-settings.php:28
+msgid "News Slider Settings"
+msgstr ""
+
+#. Name of the theme
+#: inc/template-functions.php:388
+msgid "NewsExo"
+msgstr ""
+
+#. widget name will appear in UI
+#: template-parts/widgets/grid-view-news.php:16
+msgid "NewsExo : Grid View News"
+msgstr ""
+
+#. widget name will appear in UI
+#: template-parts/widgets/list-view-news.php:16
+msgid "NewsExo : List View News"
+msgstr ""
+
+#. widget name will appear in UI
+#: template-parts/widgets/list-view-news2.php:16
+msgid "NewsExo : List View News 2"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"NewsExo is a clean, stylish, and, powerful WordPress theme for News Blog "
+"&amp; Magazine websites. It has a unique design for a visually stunning "
+"layout that makes your content displays beautiful and easy to read for any "
+"media device. Even it is user-friendly, SEO-ready, effortlessly, lightweight,"
+" and optimized for top performance and Core Web Vitals. The theme is best "
+"suitable for news, newspapers, magazines, publishers, editors, news portals, "
+"personal blogs, dynamic news, business blogs, news editorials, guides, "
+"journalism, lifestyle blogs, travel blogs, niche blog, food blog, fashion "
+"magazine, beauty blog, affiliate blog, multimedia blog, guest blogging and "
+"reviews websites. It also has flexible and versatile layouts enough for "
+"essential needs with unlimited colors, unlimited Google fonts, typography, "
+"responsive design, and Rtl language support. It is designed to be highly SEO-"
+"friendly that can help optimize your website on search engine performance, "
+"making it easier to find for potential visitors and the theme provides "
+"predefined beautiful demos that can be imported with one click in less time. "
+"NewsExo also supports popular free and premium WordPress plugins such as "
+"Elementor, Yoast SEO, WooCommerce, Gutenberg, Contact Form 7, Jetpack, "
+"Google Analytics, and much more. Check the demo of NewsExo Pro https:"
+"//newsexo-pro.themearile.com/."
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:238
+msgid "NewsExo Pro Available!"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:526
+msgid "No"
+msgstr ""
+
+#: comments.php:32
+msgid "No Comments"
+msgstr ""
+
+#: inc/customizer/customizer-settings/newsexo-customize-base-customizer-settings.php:74
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:600
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:543
+#, php-format
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+
+#: comments.php:32
+msgid "One comment"
+msgstr ""
+
+#: 404.php:20
+msgid "OOPS, SORRY WE CAN'T FIND THAT PAGE !"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:522
+msgid "Open link in new tab"
+msgstr ""
+
+#: template-parts/content-archive.php:54 template-parts/content-page.php:22
+#: template-parts/content.php:54
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-single-post-customizer-settings.php:42
+msgid "Post Author Enable/Disable"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-archive-post-customizer-settings.php:43
+msgid "Post Content"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-featured-news-customizer-settings.php:51
+#: inc/customizer/customizer-settings/home/newsexo-home-news-slider-customizer-settings.php:75
+#: inc/customizer/customizer-settings/home/newsexo-home-trending-news-customizer-settings.php:65
+#: inc/customizer/customizer-settings/home/newsexo-home-you-have-missed-customizer-settings.php:52
+msgid "Posts"
+msgstr ""
+
+#: footer.php:16
+msgid "Powered by"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:20
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-preloader-customizer-settings.php:42
+msgid "Preloader Enable/Disable"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-preloader-customizer-settings.php:29
+msgid "Preloader Settings"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:13
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/template-functions.php:80 inc/template-functions.php:218
+#: template-parts/content-archive.php:52 template-parts/content-single.php:56
+#: template-parts/content.php:52 template-parts/widgets/grid-view-news.php:103
+#: template-parts/widgets/list-view-news.php:103
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-single-post-customizer-settings.php:52
+msgid "Related Post Settings"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:325
+msgid "Related Story"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:625
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:655
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-slider-control.php:70
+msgid "Reset"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:123
+msgid "Scroll to Top"
+msgstr ""
+
+#: searchform.php:2 template-parts/site-navbar.php:72
+msgid "Search"
+msgstr ""
+
+#: template-parts/site-navbar.php:59 template-parts/site-navbar.php:71
+msgid "Search here"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-menu-bar-customizer-settings.php:59
+msgid "Search Icon Enable/Disable"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-news-slider-customizer-settings.php:42
+#: inc/customizer/customizer-settings/home/newsexo-home-you-have-missed-customizer-settings.php:42
+msgid "Section Enable/Disable"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-base-control.php:29
+msgid "Select Color"
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-base-control.php:28
+msgid "Select default color"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:343
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-blog-general-customizer-settings.php:110
+msgid "Single Blog"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:78
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-single-post-customizer-settings.php:29
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:28
+msgid "Site Animation"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-site-animation-customizer-settings.php:42
+msgid "Site Animation Enable/Disable"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-site-animation-customizer-settings.php:29
+msgid "Site Animation Settings"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:44
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:36
+msgid "Site Style"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:34
+msgid "Site Top Header"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Slide Content Format"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:98
+msgid "Slider News Category"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:46
+msgid "Social Icon"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-site-top-header-customizer-settings.php:78
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:608
+msgid "Social icons"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-site-top-header-customizer-settings.php:68
+msgid "Social Icons Enable/Disable"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:266
+msgid "Social Icons Text"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:43
+msgid "Social Items Content"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer/controls/code/newsexo-customize-typography-control.php:39
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/template-functions.php:371
+msgid "Starter Sites"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-menu-bar-customizer-settings.php:46
+msgid "Static"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-news-slider-customizer-settings.php:65
+msgid "Static News"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:105
+msgid "Static News Category"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-menu-bar-customizer-settings.php:45
+msgid "Sticky"
+msgstr ""
+
+#: comments.php:73
+msgid "Submit"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:263
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr ""
+
+#: inc/template-functions.php:516
+msgid "Support"
+msgstr ""
+
+#: inc/template-functions.php:366
+#, php-format
+msgid ""
+"Thank you for choosing %1$s theme. To take full advantage of the complete "
+"features of the theme click the Starter Sites and Install and Activate the "
+"plugin then use the demo importer and install the %1$s Demo according to "
+"your need."
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:217
+msgid "Theme Color Scheme"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:12
+msgid "Theme Options"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeArile"
+msgstr ""
+
+#: comments.php:26
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:282
+#: inc/customizer/newsexo-customizer-options.php:298
+#: inc/customizer/newsexo-customizer-options.php:314
+#: inc/customizer/newsexo-customizer-options.php:330
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:256
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:405
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-site-top-header-customizer-settings.php:29
+msgid "Top Header Options"
+msgstr ""
+
+#: template-parts/index-trending-news.php:3
+msgid "TRENDING NEWS"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:79
+#: inc/customizer/newsexo-customizer-options.php:276
+msgid "Trending News"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-trending-news-customizer-settings.php:28
+msgid "Trending News Settings"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:134
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:239
+msgid "Upgrade Pro"
+msgstr ""
+
+#: inc/template-functions.php:518
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:564
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:309
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr ""
+
+#: inc/template-functions.php:382
+msgid "View Demos"
+msgstr ""
+
+#: inc/template-functions.php:377
+msgid "View Documentation"
+msgstr ""
+
+#: template-parts/content-single.php:79
+msgid "Website"
+msgstr ""
+
+#: inc/template-functions.php:362
+#, php-format
+msgid "Welcome to %1$s"
+msgstr ""
+
+#: template-parts/widgets/register-sidebars.php:31
+#: template-parts/widgets/register-sidebars.php:47
+msgid "widget area"
+msgstr ""
+
+#: template-parts/widgets/grid-view-news.php:126
+#: template-parts/widgets/list-view-news.php:126
+#: template-parts/widgets/list-view-news2.php:88
+msgid "Widget Title"
+msgstr ""
+
+#: template-parts/widgets/grid-view-news.php:120
+#: template-parts/widgets/list-view-news.php:120
+#: template-parts/widgets/list-view-news2.php:82
+msgid "Widget title"
+msgstr ""
+
+#: inc/customizer/newsexo-panels-and-sections.php:199
+msgid "Widgets"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:529
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/newsexo-typography-customizer-settings.php:49
+msgid "You can enter size in px or rem "
+msgstr ""
+
+#: template-parts/index-you-may-have-missed.php:4
+msgid "YOU MAY HAVE MISSED"
+msgstr ""
+
+#: inc/customizer/newsexo-customizer-options.php:129
+#: inc/customizer/newsexo-customizer-options.php:308
+msgid "You May Have Missed"
+msgstr ""
+
+#: inc/customizer/customizer-settings/home/newsexo-home-you-have-missed-customizer-settings.php:28
+msgid "You May Have Missed Settings"
+msgstr ""
+
+#. %1$s %2$s: logged in
+#: comments.php:54
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr ""
+
+#: inc/template-functions.php:63
+msgid "Your comment is awaiting moderation."
+msgstr ""
