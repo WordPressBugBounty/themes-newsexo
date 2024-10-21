@@ -18,7 +18,10 @@
  
 $activate_theme_data = wp_get_theme(); // getting current theme data
 $activate_theme = $activate_theme_data->name;
-if( 'Newsio' == $activate_theme ){
+if( 'News Digest' == $activate_theme ){
+	$vrsn_two_class = 'vrsn-three';
+}
+elseif( 'Newsio' == $activate_theme ){
 	$vrsn_two_class = 'vrsn-two';
 }else{ $vrsn_two_class = ''; }
  ?>
@@ -26,7 +29,7 @@ if( 'Newsio' == $activate_theme ){
 	<p class="nopassword"><?php esc_html_e( 'This post is password protected. Enter the password to view any comments.', 'newsexo' ); ?></p>
 	<?php return; endif; ?>
          <?php if ( have_comments() ) : ?>
-		<article class="theme-comment-area wow animate fadeInUp" data-wow-delay=".3s">	
+		<article class="theme-comment-area wow animate fadeInUp <?php echo $vrsn_two_class; ?>" data-wow-delay=".3s">	
 			<div class="news-section-title five">
 				<h5 class="f-heading">
 				<?php echo comments_number(__( 'No Comments', 'newsexo'), __('One comment','newsexo'), __('% comments', 'newsexo')); ?>

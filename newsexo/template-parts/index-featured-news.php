@@ -5,7 +5,10 @@ $featured_post = '4';
 $newsexo_theme_featured_news_category = get_theme_mod('newsexo_theme_featured_news_category');
 $activate_theme_data = wp_get_theme(); // getting current theme data
 $activate_theme = $activate_theme_data->name;
-if( 'Newsio' == $activate_theme ){
+if( 'News Digest' == $activate_theme ){
+	$vrsn_two_class = 'vrsn-three';
+}
+elseif( 'Newsio' == $activate_theme ){
 	$vrsn_two_class = 'vrsn-two';
 }else{ $vrsn_two_class = ''; }
 if($newsexo_featured_news_disabled == true): ?>

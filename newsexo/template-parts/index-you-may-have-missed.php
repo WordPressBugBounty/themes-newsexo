@@ -5,7 +5,10 @@ $newsexo_you_have_missed_section_title = get_theme_mod('newsexo_you_have_missed_
 $missed_post = '4';
 $activate_theme_data = wp_get_theme(); // getting current theme data
 $activate_theme = $activate_theme_data->name;
-if( 'Newsio' == $activate_theme ){
+if( 'News Digest' == $activate_theme ){
+	$vrsn_two_class = 'vrsn-three';
+}
+elseif( 'Newsio' == $activate_theme ){
 	$vrsn_two_class = 'vrsn-two';
 }else{ $vrsn_two_class = ''; }
 if($newsexo_you_have_missed_disabled == true): ?>

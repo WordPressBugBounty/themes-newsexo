@@ -101,12 +101,19 @@ function newsexo_frontpage_sections_settings( $wp_customize ){
 				'priority'        => 10,
 		) ) );	
 		
+		$activate_theme_data = wp_get_theme(); // getting current theme data
+		$activate_theme = $activate_theme_data->name;
+
+	if( 'News Digest' != $activate_theme ){
+		
 		$wp_customize->add_setting( 'newsexo_theme_big_static_news_category',array('capability'     => 'edit_theme_options', 'default'           => 0, 'sanitize_callback' => 'newsexo_sanitize_array') );	$wp_customize->add_control( new NewsExo_Customize_Category_Control( $wp_customize, 'newsexo_theme_big_static_news_category', array(
 				'label'   => __('Static News Category','newsexo'),
 				'section' => 'newsexo_theme_big_news_slider',
 				'settings'   => 'newsexo_theme_big_static_news_category',
 				'priority'        => 36,
 		) ) );	
+		
+	}
 	
 	
     /* Featured News */
