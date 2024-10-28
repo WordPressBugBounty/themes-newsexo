@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: WordPress 4.7
 Tested up to: WordPress 6.6
 Requires PHP: 5.6
-Stable tag: 2.0
-Version: 2.0
+Stable tag: 2.1
+Version: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout
@@ -77,6 +77,9 @@ https://stocksnap.io/photo/restaurant-food-WASS5H17GM
 https://pxhere.com/en/photo/560989
 
 == Changelog ==
+
+@Version 2.1
+* We have removed the unnecessary child theme css.
 
 @Version 2.0
 * Added the News Digest child theme support.

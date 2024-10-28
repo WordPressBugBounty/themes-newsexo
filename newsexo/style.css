@@ -1,10 +1,12 @@
+
+
 /*!
 Theme Name: NewsExo
 Theme URI: https://themearile.com/newsexo-theme/
 Author: ThemeArile
 Author URI: https://themearile.com
 Description: NewsExo is a clean, stylish, and, powerful WordPress theme for News Blog & Magazine websites. It has a unique design for a visually stunning layout that makes your content displays beautiful and easy to read for any media device. Even it is user-friendly, SEO-ready, effortlessly, lightweight, and optimized for top performance and Core Web Vitals. The theme is best suitable for news, newspapers, magazines, publishers, editors, news portals, personal blogs, dynamic news, business blogs, news editorials, guides, journalism, lifestyle blogs, travel blogs, niche blog, food blog, fashion magazine, beauty blog, affiliate blog, multimedia blog, guest blogging and reviews websites. It also has flexible and versatile layouts enough for essential needs with unlimited colors, unlimited Google fonts, typography, responsive design, and Rtl language support. It is designed to be highly SEO-friendly that can help optimize your website on search engine performance, making it easier to find for potential visitors and the theme provides predefined beautiful demos that can be imported with one click in less time. NewsExo also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Gutenberg, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of NewsExo Pro https://newsexo-pro.themearile.com/.
-Version: 2.0
+Version: 2.1
 Tested up to: WordPress 6.6
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -1133,30 +1135,6 @@ a:hover, a:active { color: #1f2024; outline: 0; }
 	margin: 0;
 	padding: 1.563rem 0 1.25rem;
 }
-.grid-view-news-area.vrsn-two {
-	background-color: #fff;
-	border: 1px solid #ebebeb;
-	padding: 0.938rem 0.75rem;
-}
-.grid-view-news-area.vrsn-three {
-	background-color: #fff;
-	border: 1px solid #ebebeb;
-	padding: 0.938rem 0.75rem;
-	position: relative;
-    -webkit-transition: all .1s;
-    -ms-transition: all .1s;
-    -moz-transition: all .1s;
-    transition: all .1s;
-}
-.grid-view-news-area.vrsn-three:hover{
-	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
-	border-top: 2px solid #13171e;
-	-webkit-transition: all .5s;
-	-ms-transition: all .5s;
-	-moz-transition: all .5s;	
-	transition: all .5s;
-	transform : translateY(-5px);
-}
 .grid-view-news-area .post-content {
 	padding: 1.5625rem 0rem 0rem;
 }
@@ -1581,16 +1559,6 @@ body.page-template-default .blog-grid-view-post .post:first-child {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-}
-.post-author-area.vrsn-two {
-    background-color: #fff;
-    border: 1px solid #ebebeb;
-}
-.post-author-area.vrsn-three {
-    background-color: #fff;
-    border-bottom: 1px solid #ebebeb;
-	border-left: 1px solid #ebebeb;
-	border-right: 1px solid #ebebeb;
 }
 .post-author-area .avatar { 
 	margin: 0 1.875rem 0 0; 
