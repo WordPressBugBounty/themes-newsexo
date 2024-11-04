@@ -504,6 +504,9 @@ input[type="submit"]:focus {
 .footer-sidebar .widget .wp-block-media-text .wp-block-media-text__content a {
 	color: #0e98d6;
 } 
+.footer-sidebar .widget .wp-block-embed .wp-element-caption a {
+	color: #0e98d6;
+} 
 
 
 /*--------------------------------------------------------------
