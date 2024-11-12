@@ -114,7 +114,7 @@ function newsexo_scripts() {
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css'); 
 	 
 	// Fontawesome.
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome/css/font-awesome' . $suffix . '.css', false, '4.7.0' );
+	wp_enqueue_style( 'font-awesome-min', get_template_directory_uri() . '/assets/css/font-awesome/css/font-awesome' . $suffix . '.css', false, '4.7.0' );
 	// Theme style.
 	wp_enqueue_style( 'newsexo-style', get_stylesheet_uri() );
 	
