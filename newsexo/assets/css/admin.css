@@ -296,4 +296,11 @@ a.button.button-upgrade-pro:focus {
 	calc(100% - var(--f)) var(--f),var(--r) var(--f),
 	0 calc(50% + var(--f)/2));
 }
+/*Remove chevron next icon from upgrade to pro button*/
+#customize-theme-controls .newsexo_upsell_section .accordion-section-title:after {
+	content: none;
+}
+
+
+
 
