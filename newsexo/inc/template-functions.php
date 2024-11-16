@@ -483,9 +483,9 @@ function newsexo_pro_ocdi_import_files() {
             'preview_url'                => 'https://newsexo-pro-three.themearile.com/',
         ),
 		array(
-            'import_file_name'           => 'Exclusive Pro',
+            'import_file_name'           => 'NewsCorn Pro',
 			'categories'                 => [ 'Pro' ],
-            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/exclusive-pro-screenshot.jpg',
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/newscorn-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-four.themearile.com/',
         ),
 		array(
