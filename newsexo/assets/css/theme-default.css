@@ -472,6 +472,12 @@ input[type="submit"]:focus {
 .wp-block-read-more:focus {
 	color: #0e98d6;
 }
+/*wp block loginout*/
+.wp-block-loginout a, 
+.wp-block-loginout a:hover, 
+.wp-block-loginout a:focus {
+	color: #0e98d6;
+}
 /*Sidebar Update Released*/
 .sidebar .widget .wp-block-file .wp-block-file__button {
     background-color: #0e98d6;
