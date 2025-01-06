@@ -536,6 +536,9 @@ input[type="submit"]:focus {
 .footer-sidebar .widget .wp-block-file .wp-block-file__button {
     background-color: #0e98d6;
 }
+.footer-sidebar .widget .wp-block-read-more {
+    color: #0e98d6;
+}
 
 
 /*--------------------------------------------------------------
