@@ -231,5 +231,6 @@ require NEWSEXO_PARENT_INC_DIR . '/theme-custom-typography.php';
 /**
  * Bootstrap class navwalker.
  */
-
+ 
+require NEWSEXO_PARENT_INC_DIR . '/default_menu_walker.php';
 require NEWSEXO_PARENT_INC_DIR . '/class-bootstrap-navwalker.php';

@@ -39,19 +39,17 @@ $newsexo_header_banner_advertisement_image1 = get_theme_mod('newsexo_header_bann
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					  <span class="navbar-toggler-icon"></span>
 					</button>
-				
+					<div id="navbarSupportedContent" class="navbar-collapse collapse">
 						<?php
 							wp_nav_menu( array(
 								 'theme_location'  => 'primary',
-								 'container'       => 'div',
-								 'container_class' => 'collapse navbar-collapse',
-								 'container_id' => 'navbarSupportedContent',
 								 'menu_class'      => 'nav navbar-nav',
-								 'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+								 'fallback_cb'     => 'newsexo_fallback_page_menu',
 								 'walker'          => new wp_bootstrap_navwalker()
 							) );
 							
 						?>
+					</div>
 				</div>
 				<?php if($newsexo_search_icon_disabled == true){ ?>
 				<div class="col-lg-1 col-md-12">
