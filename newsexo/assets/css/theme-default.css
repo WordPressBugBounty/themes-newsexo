@@ -488,6 +488,10 @@ input[type="submit"]:focus {
 .sidebar .widget .wp-block-embed .wp-element-caption a {
 	color: #0e98d6;
 } 
+.wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author:hover, 
+.wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link:hover {
+	color: #0e98d6;
+}
 
 
 /*--------------------------------------------------------------
