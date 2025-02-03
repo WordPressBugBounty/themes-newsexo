@@ -543,6 +543,10 @@ input[type="submit"]:focus {
 .footer-sidebar .widget .wp-block-read-more {
     color: #0e98d6;
 }
+.footer-sidebar .widget .logged-in.wp-block-loginout a, 
+.footer-sidebar .widget .logged-out.wp-block-loginout a {
+    color: #0e98d6;
+}
 
 
 /*--------------------------------------------------------------
