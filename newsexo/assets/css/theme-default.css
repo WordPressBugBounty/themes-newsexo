@@ -492,6 +492,11 @@ input[type="submit"]:focus {
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link:hover {
 	color: #0e98d6;
 }
+/*WP Block Navigation*/
+.wp-block-navigation .wp-block-navigation-item__content:hover, 
+.wp-block-navigation .wp-block-navigation-item__content:focus {
+	color: #0e98d6;
+}
 
 
 /*--------------------------------------------------------------
