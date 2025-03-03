@@ -4,7 +4,7 @@ Theme URI: https://themearile.com/newsexo-theme/
 Author: ThemeArile
 Author URI: https://themearile.com
 Description: NewsExo is a clean, stylish, and, powerful WordPress theme for News Blog & Magazine websites. It has a unique design for a visually stunning layout that makes your content displays beautiful and easy to read for any media device. Even it is user-friendly, SEO-ready, effortlessly, lightweight, and optimized for top performance and Core Web Vitals. The theme is best suitable for news, newspapers, magazines, publishers, editors, news portals, personal blogs, dynamic news, business blogs, news editorials, guides, journalism, lifestyle blogs, travel blogs, niche blog, food blog, fashion magazine, beauty blog, affiliate blog, multimedia blog, guest blogging and reviews websites. It also has flexible and versatile layouts enough for essential needs with unlimited colors, unlimited Google fonts, typography, responsive design, and Rtl language support. It is designed to be highly SEO-friendly that can help optimize your website on search engine performance, making it easier to find for potential visitors and the theme provides predefined beautiful demos that can be imported with one click in less time. NewsExo also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Gutenberg, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of NewsExo Pro https://newsexo-pro.themearile.com/.
-Version: 3.9
+Version: 4.0
 Tested up to: WordPress 6.7
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -2897,6 +2897,9 @@ p .wp-image-827 { float: none !important; }
 }
 .footer-sidebar .widget .wp-block-file .wp-block-file__button {
 	color: #fff;
+}
+.footer-sidebar .widget ul li a {
+	color: #e0e0e0;
 }
 
 
