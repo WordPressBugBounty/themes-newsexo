@@ -15,7 +15,7 @@ $activate_theme = $activate_theme_data->name;
 if( 'News Digest' == $activate_theme ){
 	$vrsn_two_class = 'vrsn-three';
 }
-elseif( 'Newsio' == $activate_theme ){
+elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme ){
 	$vrsn_two_class = 'vrsn-two';
 }else{ $vrsn_two_class = ''; }
 ?>
