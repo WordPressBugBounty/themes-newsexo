@@ -74,6 +74,11 @@ if ( ! class_exists( 'NewsExo_Customizer_Partials' ) ) {
 			return get_theme_mod( 'newsexo_you_have_missed_section_title' );
 		}
 		
+		// read more
+		public static function customize_partial_newsexo_read_more_button_text() {
+			return get_theme_mod( 'newsexo_read_more_button_text' );
+		}
+		
 		// related post
 		public static function customize_partial_newsexo_related_post_section_title() {
 			return get_theme_mod( 'newsexo_related_post_section_title' );

@@ -324,6 +324,22 @@ function newsexo_customizer_selective_refresh_settings($wp_customize) {
 			'type' => 'text',
 		));	
 		
+	// Read More Button Text
+	
+		$wp_customize->add_setting( 'newsexo_read_more_button_text',
+		array(
+            'default' => __('Read More', 'newsexo'),
+			'sanitize_callback' => 'newsexo_sanitize_text',
+			'transport' => $selective_refresh,
+		));	
+		$wp_customize->add_control( 'newsexo_read_more_button_text',
+		array(
+			'label'   => esc_html__( 'Read More Button Text', 'newsexo' ),
+			'section' => 'newsexo_theme_archive_post',
+			'priority'        => 10,
+			'type' => 'text',
+		));	
+		
 	// Related Post
 	
 		$wp_customize->add_setting( 'newsexo_related_post_section_title',

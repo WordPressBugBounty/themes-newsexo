@@ -2,10 +2,10 @@
 Contributors: ThemeArile
 Author: ThemeArile
 Requires at least: WordPress 4.7
-Tested up to: WordPress 6.7
+Tested up to: WordPress 6.7.2
 Requires PHP: 5.6
-Stable tag: 4.1
-Version: 4.1
+Stable tag: 4.2
+Version: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout
@@ -77,6 +77,9 @@ https://stocksnap.io/photo/restaurant-food-WASS5H17GM
 https://pxhere.com/en/photo/560989
 
 == Changelog ==
+
+@Version 4.2
+* We added the Read More button text setting for blog post area in the theme.
 
 @Version 4.1
 * We did changed the border style and space issue in the list-view-post-widget widget for the default page templates.

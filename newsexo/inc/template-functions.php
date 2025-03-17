@@ -77,7 +77,8 @@ function newsexo_gravatar_class($class) {
 
 function newsexo_read_more_button_class($read_class)
 	{  global $post;
-		return '<p><a href="' . esc_url(get_permalink()) . "#more-{$post->ID}\" class=\"more-link\">" .esc_html__('Read More','newsexo')." <i class='fa-solid fa-angle-right'></i></a></p>";
+	    $newsexo_read_more_button_text = get_theme_mod('newsexo_read_more_button_text', __('Read More', 'newsexo'));
+		return '<p><a href="' . esc_url(get_permalink()) . "#more-{$post->ID}\" class=\"more-link\">" .$newsexo_read_more_button_text." </a></p>";
 	}
 add_filter( 'the_content_more_link', 'newsexo_read_more_button_class' );
 

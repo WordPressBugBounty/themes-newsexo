@@ -93,6 +93,15 @@ if ( isset( $wp_customize->selective_refresh ) ) {
 		)
 	);
 	
+		// read more
+	$wp_customize->selective_refresh->add_partial(
+		'newsexo_read_more_button_text',
+		array(
+			'selector'        => '.entry-content .more-link',
+			'render_callback' => array( 'NewsExo_Customizer_Partials', 'customize_partial_newsexo_read_more_button_text' ),
+		)
+	);
+	
 	//Slider new
 	$wp_customize->selective_refresh->add_partial( 'newsexo_big_news_slider_disabled', array(
 		'selector'            => '.big-news-section #news-slider',
