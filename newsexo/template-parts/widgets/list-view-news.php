@@ -103,7 +103,7 @@ class NewsExo_List_View_News_Widget extends WP_Widget {
 										<div class="entry-content">
 											<?php newsexo_posted_content(); ?>
 											<?php if (get_theme_mod('newsexo_blog_content','excerpt') == "excerpt") { ?>
-										<a href="<?php the_permalink();?>" class="more-link"><?php echo get_theme_mod('newsexo_read_more_button_text', __('Read More', 'newsexo')); ?></a>
+										<a href="<?php the_permalink();?>" class="more-link"><?php echo esc_html(get_theme_mod('newsexo_read_more_button_text', __('Read More', 'newsexo'))); ?></a>
 											<?php } ?>
 										</div>
 									</figcaption>	
