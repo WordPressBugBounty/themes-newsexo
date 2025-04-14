@@ -497,6 +497,9 @@ input[type="submit"]:focus {
 .wp-block-navigation .wp-block-navigation-item__content:focus {
 	color: #0e98d6;
 }
+.sidebar .widget .textwidget a {
+	color: #0e98d6;
+}
 
 
 /*--------------------------------------------------------------
