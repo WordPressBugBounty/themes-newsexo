@@ -395,6 +395,10 @@ input[type="submit"]:focus {
     background-color: #0e98d6;
     border: 1px solid #0e98d6;
 }
+/*Paragraph Links in Widgets*/
+.widget p a {
+	color: #0e98d6;
+}
 /*Mixed Widget for All Sidebar*/
 .widget .wp-block-archives-list li a:hover,
 .widget .wp-block-archives-list li a:focus,
