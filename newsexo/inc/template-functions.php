@@ -501,6 +501,12 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/seattle-news-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-six.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'News Gadgets Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/news-gadgets-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-eight.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );

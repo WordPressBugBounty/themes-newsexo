@@ -45,7 +45,7 @@ class NewsExo_List_View_News_Widget extends WP_Widget {
 					if( 'News Digest' == $activate_theme ){
 						$vrsn_two_class = 'vrsn-three';
 					}
-					elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme ){
+					elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme){
 						$vrsn_two_class = 'vrsn-two';
 					}else{ $vrsn_two_class = ''; }
                         $query_args = new WP_Query( apply_filters( 'widget_posts_args', array(
