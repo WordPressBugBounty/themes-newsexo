@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: WordPress 4.7
 Tested up to: WordPress 6.8
 Requires PHP: 5.6
-Stable tag: 5.1
-Version: 5.1
+Stable tag: 5.3
+Version: 5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout
@@ -77,6 +77,12 @@ https://stocksnap.io/photo/restaurant-food-WASS5H17GM
 https://pxhere.com/en/photo/560989
 
 == Changelog ==
+
+@Version 5.3
+* We added the space bottom the list items of the wp-block-list widget in the blog post area.
+
+@Version 5.2
+* We added the space bottom the list items of the wp-block-list widget in the blog post area.
 
 @Version 5.1
 * We added the space bottom the list items of the wp-block-categories-list widget in the blog post area.
