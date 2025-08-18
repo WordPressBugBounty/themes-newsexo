@@ -504,6 +504,10 @@ input[type="submit"]:focus {
 .sidebar .widget .textwidget a {
 	color: #0e98d6;
 }
+.wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author, 
+.wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link {
+	color: #0e98d6;
+}
 
 
 /*--------------------------------------------------------------
