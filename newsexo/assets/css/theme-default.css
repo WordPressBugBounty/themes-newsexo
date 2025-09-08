@@ -508,7 +508,9 @@ input[type="submit"]:focus {
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link {
 	color: #0e98d6;
 }
-
+.sidebar .widget dl dd a {
+	color: #0e98d6;
+}
 
 /*--------------------------------------------------------------
 =>> Footer Section & Widgets
