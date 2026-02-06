@@ -2,10 +2,10 @@
 Contributors: ThemeArile
 Author: ThemeArile
 Requires at least: WordPress 4.7
-Tested up to: WordPress 6.8
+Tested up to: WordPress 6.9
 Requires PHP: 5.6
-Stable tag: 5.8
-Version: 5.8
+Stable tag: 6.7
+Version: 6.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout
@@ -77,6 +77,33 @@ https://stocksnap.io/photo/restaurant-food-WASS5H17GM
 https://pxhere.com/en/photo/560989
 
 == Changelog ==
+
+@Version 6.7
+* We have removed the border around the accordion widget title in footer sidebar widget area.
+
+@Version 6.6
+* Added the Frankfurt News child theme support.
+
+@Version 6.5
+* We have changed the border around the accordion widget in sidebar widget area.
+
+@Version 6.4
+* We have added the text underline color in the hyperlink of the sidebar widget title.
+
+@Version 6.3
+* We have added the underline in the hyperlink of the footer sidebar widget title.
+
+@Version 6.2
+* We have added the underline in the hyperlink of the sidebar widget title.
+
+@Version 6.1
+* We have enhanced the font size of the wp-block-file widget in the blog post area.
+
+@Version 6.0
+* Added the Editor News and Medford News child theme support.
+
+@Version 5.9
+* We added the list style of the wp-block-latest-posts in the blog post area.
 
 @Version 5.8
 * We added the border and space between the wp-block-latest-comments widget in the blog post area.

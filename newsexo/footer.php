@@ -13,7 +13,7 @@ $newsexo_footer_widgets_enabled = get_theme_mod('newsexo_footer_widgets_enabled'
 $newsexo_footer_style = get_theme_mod('newsexo_footer_style', 'dark');
 $newsexo_footer_container_size = get_theme_mod('newsexo_footer_container_size', 'container-full');
 $newsexo_footer_copright_enabled = get_theme_mod('newsexo_footer_copright_enabled', true);
-$newsexo_footer_copright_text = get_theme_mod('newsexo_footer_copright_text', '' . __('Copyright', 'newsexo') . ' &copy; 2025 | ' . __('Powered by', 'newsexo') . ' <a href="//wordpress.org/">WordPress</a>');
+$newsexo_footer_copright_text = get_theme_mod('newsexo_footer_copright_text', '' . __('Copyright', 'newsexo') . ' &copy; 2026 | ' . __('Powered by', 'newsexo') . ' <a href="//wordpress.org/">WordPress</a>');
 $newsexo_scroll_to_top_enabled = get_theme_mod('newsexo_scroll_to_top_enabled', true);
 
 

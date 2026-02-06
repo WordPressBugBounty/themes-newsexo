@@ -496,6 +496,9 @@ input[type="submit"]:focus {
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link:hover {
 	color: #0e98d6;
 }
+.sidebar .widget .wp-block-heading a {
+    color: #0e98d6;
+}
 /*WP Block Navigation*/
 .wp-block-navigation .wp-block-navigation-item__content:hover, 
 .wp-block-navigation .wp-block-navigation-item__content:focus {
@@ -510,6 +513,11 @@ input[type="submit"]:focus {
 }
 .sidebar .widget dl dd a {
 	color: #0e98d6;
+}
+
+/*Footer Sidebar Update Released*/
+.footer-sidebar .widget .wp-block-heading a {
+    color: #0e98d6;
 }
 
 /*--------------------------------------------------------------

@@ -21,7 +21,13 @@ $activate_theme = $activate_theme_data->name;
 if( 'News Digest' == $activate_theme ){
 	$vrsn_two_class = 'vrsn-three';
 }
-elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme){
+elseif( 'Medford News' == $activate_theme){
+	$vrsn_two_class = 'vrsn-four';
+}
+elseif( 'Editor News' == $activate_theme){
+	$vrsn_two_class = 'vrsn-five';
+}
+elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme || 'Frankfurt News' == $activate_theme){
 	$vrsn_two_class = 'vrsn-two';
 }else{ $vrsn_two_class = ''; }
  ?>

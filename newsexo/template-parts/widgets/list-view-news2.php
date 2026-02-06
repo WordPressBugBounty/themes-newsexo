@@ -34,6 +34,9 @@ class NewsExo_List_View_News2_Widget extends WP_Widget {
 		?>
 		<div class="list-view-post-widget">
                     <?php
+					$activate_theme_data = wp_get_theme(); // getting current theme data
+					$activate_theme = $activate_theme_data->name;
+					
                         $query_args = new WP_Query( apply_filters( 'widget_posts_args', array(
                             'no_found_rows'       => true,
                             'post_status'         => 'publish',
@@ -46,8 +49,8 @@ class NewsExo_List_View_News2_Widget extends WP_Widget {
                             while ( $query_args->have_posts() ) {
                             $query_args->the_post();?>
 					
-								<article class="post">							
-									<figure class="post-thumbnail"> 
+							<article class="post <?php if( 'Editor News' == $activate_theme ){ echo 'vrsn-five'; } ?><?php if( 'Medford News' == $activate_theme ){ echo 'vrsn-four'; } ?>">			 	
+							  <figure class="post-thumbnail"> 
 								<?php $img_class =array('class' => "img-fluid");
 								the_post_thumbnail('',$img_class);?>
 									</figure>

@@ -513,6 +513,24 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/irvine-news-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-nine.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'Editor News Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/editor-news-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-ten.themearile.com/',
+        ),
+		array(
+            'import_file_name'           => 'Medford News Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/medford-news-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-eleven.themearile.com/',
+        ),
+		array(
+            'import_file_name'           => 'Frankfurt News Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/frankfurt-news-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-twelve.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );

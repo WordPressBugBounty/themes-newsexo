@@ -59,7 +59,7 @@ if ( ! class_exists( 'NewsExo_Customize_Site_Animation_Option' ) ) :
 						'section'     => 'title_tagline',
 						'input_attrs' => array(
 							'min'  => 0,
-							'max'  => 600,
+							'max'  => 800,
 							'step' => 3,
 						),
 					),
