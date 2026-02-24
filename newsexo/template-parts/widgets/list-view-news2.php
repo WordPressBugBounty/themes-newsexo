@@ -49,7 +49,7 @@ class NewsExo_List_View_News2_Widget extends WP_Widget {
                             while ( $query_args->have_posts() ) {
                             $query_args->the_post();?>
 					
-							<article class="post <?php if( 'Editor News' == $activate_theme ){ echo 'vrsn-five'; } ?><?php if( 'Medford News' == $activate_theme ){ echo 'vrsn-four'; } ?>">			 	
+							<article class="post <?php if( 'Editor News' == $activate_theme ){ echo 'vrsn-five'; } ?><?php if( 'Medford News' == $activate_theme || 'News Mart' == $activate_theme){ echo 'vrsn-four'; } ?>">			 	
 							  <figure class="post-thumbnail"> 
 								<?php $img_class =array('class' => "img-fluid");
 								the_post_thumbnail('',$img_class);?>

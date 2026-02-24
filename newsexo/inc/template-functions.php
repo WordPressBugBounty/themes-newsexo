@@ -531,6 +531,12 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/frankfurt-news-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-twelve.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'News Mart Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/news-mart-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-thirteen.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );
