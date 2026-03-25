@@ -170,16 +170,17 @@ input[type="submit"]:focus {
 =>> Trending News Top Marqueee Area
 --------------------------------------------------------------*/
 
-.trending-news-col .heading h5 {
+.news-highlights-area .news-highlights-title h5 {
 	background-color: #0e98d6;
 }
-.trending-news-col .heading h5:before {
+.news-highlights-area .news-highlights-title h5:before {
 	border-left: 15px solid #0e98d6;
 }
-.trending-news-col .trending-news-content a:hover h6, 
-.trending-news-col .trending-news-content a:focus h6 {
+.news-highlights-area .news-marquee-wrapper .news-headline-post-content a:hover h6.news-headline-post-title, 
+.news-highlights-area .news-marquee-wrapper .news-headline-post-content a:focus h6.news-headline-post-title {
 	color: #0e98d6;
 }
+
 .news-section-title.five h5 {
 	background-color: #0e98d6;
 }

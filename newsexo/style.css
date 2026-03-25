@@ -4,7 +4,7 @@ Theme URI: https://themearile.com/newsexo-theme/
 Author: ThemeArile
 Author URI: https://themearile.com
 Description: NewsExo is a clean, stylish, and, powerful WordPress theme for News Blog & Magazine websites. It has a unique design for a visually stunning layout that makes your content displays beautiful and easy to read for any media device. Even it is user-friendly, SEO-ready, effortlessly, lightweight, and optimized for top performance and Core Web Vitals. The theme is best suitable for news, newspapers, magazines, publishers, editors, news portals, personal blogs, dynamic news, business blogs, news editorials, guides, journalism, lifestyle blogs, travel blogs, niche blog, food blog, fashion magazine, beauty blog, affiliate blog, multimedia blog, guest blogging and reviews websites. It also has flexible and versatile layouts enough for essential needs with unlimited colors, unlimited Google fonts, typography, responsive design, and Rtl language support. It is designed to be highly SEO-friendly that can help optimize your website on search engine performance, making it easier to find for potential visitors and the theme provides predefined beautiful demos that can be imported with one click in less time. NewsExo also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Gutenberg, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of NewsExo Pro https://newsexo-pro.themearile.com/.
-Version: 7.0
+Version: 7.1
 Tested up to: WordPress 6.9
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -735,17 +735,92 @@ a:hover, a:active { color: #1f2024; outline: 0; }
     padding-right: 0.313rem;
     width: 80.5%;
     display: inline-block;
+	overflow: hidden;
 }
-.trending-news-col .news-content-area marquee { 
-	font-size: 1rem;
-	display: flex;
-}
-.trending-news-col .heading { 
+
+/*--------------------------------------------------------------
+ New Trending News Design view for RTL Language
+--------------------------------------------------------------*/
+
+.news-highlights-area { position: relative; overflow: hidden; }
+.news-highlights-area .news-highlights-title {
+	display: inline-flex;
+	z-index: 1;
 	position: relative;
-	display: inline-block;
 	width: 19%;
 }
-.trending-news-col .heading h5 { 
+.news-highlights-area .news-marquee-wrapper .news-headline-post-content .news-headline-post-title {
+	margin-bottom: 0;
+}
+.news-marquee-wrapper .news-headline-post-thumbnail { margin-bottom: 0; }
+.news-marquee-wrapper .news-headline-post-thumbnail img { 
+	display: inline-block; 
+	object-fit: cover; 
+	vertical-align: middle; 
+	width: 30px; 
+	height: 30px; 
+	margin-right: 0.313rem; 
+}
+.news-highlights {
+	display: inline-block;
+	white-space: nowrap;
+	position: relative;
+	transform: translate3d(0%, 0, 0);
+	animation-name: marquee;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	vertical-align: middle;
+}
+.news-marquee-wrapper {	
+	white-space: nowrap;
+	overflow: hidden;
+	padding-left: 0.938rem;
+	padding-right: 0.313rem;
+	width: 80.5%;
+	display: inline-block;	
+}
+.news-marquee-wrapper:hover .news-highlights {animation-play-state: paused !important;}
+
+@keyframes marquee {
+  0% {transform: translate3d(0%, 0, 0);}
+  100% {transform: translate3d(-200%, 0, 0);}
+}
+
+@media (max-width: 768px) {
+  .news-marquee-wrapper {padding: 11px 0px;}
+}
+
+#newxo-marquee-right, #newxo-marquee-left {
+	padding: 0 !important; 
+	margin: 0px;
+	-moz-border-radius: 0px;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 10;
+	overflow: hidden;
+	cursor: pointer;
+	text-align: center;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border-radius: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 0px 1px #6C6C6F;
+	color: #6C6C6F;
+	width: 2.1rem;
+	height: 2.1rem;
+	font-size: 1.125rem;
+	line-height: 2;
+	border: 0;
+}
+#newxo-marquee-right {right: 1.3rem;}
+#newxo-marquee-left {right: 3.85rem;}
+
+.news-highlights-area .news-highlights.right {animation-name: marquee_right;}
+@keyframes marquee_right {0% {transform: translateX(-100%);}}
+
+.news-highlights-area .news-highlights-title h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
@@ -753,78 +828,46 @@ a:hover, a:active { color: #1f2024; outline: 0; }
 	margin: 0;
 	position: relative;
 }
-.trending-news-col .heading h5:before {
-	content: "";
-	position: absolute;
-	right: -15px;
-	top: 50%;
+.news-highlights-area .news-highlights-title h5:before {
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-	width: 0;
-	height: 0;
-	border-top: 15px solid transparent;
-	border-bottom: 15px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
 }
-.trending-news-col .heading h5 i { 
-	padding-left: 0.313rem;
+.news-highlights-area .news-headline-post {display: inline-flex;align-items: center;gap: 15px; margin-right: 0; padding-right: 2.5rem; white-space: nowrap;position: relative;}
+.news-highlights-area .news-headline-post .news-headline-post-content {display: inline-block;width: 100%;text-wrap: wrap; flex: 1;}
+.news-highlights-area .news-marquee-wrapper .newxo-entry-title {font-size: 1.125rem;font-weight: 700;overflow: unset;}
+@media (max-width: 767px) {
+  .news-highlights-area .news-highlights-controls {display: none;}
 }
-.trending-news-col .trending-news-content a {
-	display: inline-block;
-	padding-right: 2.5rem; 
-	transition: 0.3s;
-}
-.trending-news-col .trending-news-content a img {
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    margin-right: 0.313rem;
-}
-.trending-news-col .trending-news-content a h6 {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0;
-	transition: 0.3s;
-}
-@media (max-width: 1299.98px) {
-	.trending-news-col .heading {
-		width: 23%;
-	}
-	.trending-news-col .news-content-area {
-		width: 76.5%;
-	}
-}
-@media (max-width: 1199.98px) {
-	.trending-news-col .heading {
-		width: 25%;
-	}
-	.trending-news-col .news-content-area {
-		width: 74.5%;
-	}
-}
-@media (max-width: 1099.98px) {
-	.trending-news-col .heading {
-		width: 30%;
-	}
-	.trending-news-col .news-content-area {
-		width: 70%;
-	}
-}
+#newxo-marquee-right:hover i, #newxo-marquee-left:hover i {color: #fff;}
+
 @media (max-width: 991px) {
-	.trending-news-col .heading {
+    .news-highlights-area .news-highlights-title {
+		display: block;
+		z-index: 1;
+		position: relative;
 		width: 100%;
 		text-align: center;
 	}
-	.trending-news-col .news-content-area {
-		width: 100%;
-		padding-left: 0.938rem;
-		padding-right: 0.938rem;
-		padding-top: 0.625rem;
-		padding-bottom: 0.625rem;
-	}
-	.trending-news-col .heading h5:before {
+	.news-highlights-area .news-highlights-title h5:before {
 		display: none;
+	}
+	.news-marquee-wrapper {
+		width: 100%;
+		margin-left: 0.938rem;
+        margin-right: 0.938rem;
+        padding-left: 0.938rem;
+        padding-right: 0.938rem;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
 	}
 }
 
