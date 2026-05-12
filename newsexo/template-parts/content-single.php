@@ -21,7 +21,7 @@ elseif( 'Medford News' == $activate_theme || 'News Mart' == $activate_theme){
 elseif( 'Editor News' == $activate_theme){
 	$vrsn_two_class = 'vrsn-five';
 }
-elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme || 'Frankfurt News' == $activate_theme){
+elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme || 'Frankfurt News' == $activate_theme || 'News Gallery' == $activate_theme){
 	$vrsn_two_class = 'vrsn-two';
 }else{ $vrsn_two_class = ''; }
 ?>

@@ -50,7 +50,7 @@ class NewsExo_Grid_View_News_Widget extends WP_Widget {
 					elseif( 'Editor News' == $activate_theme){
 						$vrsn_two_class = 'vrsn-five';
 					}
-					elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme || 'Frankfurt News' == $activate_theme){
+					elseif( 'Newsio' == $activate_theme || 'Seattle News' == $activate_theme || 'News Gadgets' == $activate_theme || 'Frankfurt News' == $activate_theme || 'News Gallery' == $activate_theme){
 						$vrsn_two_class = 'vrsn-two';
 					}else{ $vrsn_two_class = ''; }
                         $query_args = new WP_Query( apply_filters( 'widget_posts_args', array(
