@@ -1,7 +1,6 @@
 #accordion-section-header_image {
     margin-top: 0px;
 }
-
 .customize-control-hidden {
     margin: 0 -12px;
     margin-bottom: 12px;
@@ -194,7 +193,7 @@ a.button.button-upgrade-pro:focus {
 	padding-right: 25px; font-size: 17px;
 }
 .dashicons-external:before {
-    color: #2271b1;
+    color: #3858e9;
 }
 .newsexo-documentation, .newsexo-demos { 
 	display:inline; margin-right: 10px; margin-left: 5px;
@@ -301,6 +300,17 @@ a.button.button-upgrade-pro:focus {
 	content: none;
 }
 
-
-
-
+/*customizer Button - Upgrade to Pro*/
+.wp-core-ui .button-secondary {
+	border: 1px solid #fff;
+	color: #fff;
+	line-height: 2.2;
+	min-height: 32px;
+}
+.wp-core-ui .button-secondary:hover, .wp-core-ui .button-secondary:focus {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.newsexo-notice-started.notice-get-started-class {
+	background-color: #FFFFFF;
+}

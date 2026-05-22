@@ -242,8 +242,8 @@ function newsexo_frontpage_sections_settings( $wp_customize ){
 				$wp_customize,
 				'upsell_section',
 				array(
-					'title'            => __( 'NewsExo Pro Available!', 'newsexo' ),
-					'button_text'      => __( 'Upgrade Pro', 'newsexo' ),
+					'title'            => __( 'View Pro Features', 'newsexo' ),
+					'button_text'      => __( 'Upgrade to Pro', 'newsexo' ),
 					'url'              => 'https://themearile.com/newsexo-pro-theme/',
 					'background_color' => '#0058ff',
 					'text_color'       => '#fff',
@@ -361,7 +361,7 @@ function newsexo_customizer_selective_refresh_settings($wp_customize) {
 		$wp_customize->add_setting( 'newsexo_footer_copright_text',
 		array(
 			'sanitize_callback' =>  'newsexo_sanitize_text',
-			'default' => __('Copyright &copy; 2025 | Powered by <a href="//wordpress.org/">WordPress</a>', 'newsexo'),
+			'default' => __('Copyright &copy; 2026 | Powered by <a href="//wordpress.org/">WordPress</a>', 'newsexo'),
 			'transport' => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'newsexo_footer_copright_text',
