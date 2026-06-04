@@ -301,16 +301,17 @@ a.button.button-upgrade-pro:focus {
 }
 
 /*customizer Button - Upgrade to Pro*/
-.wp-core-ui .button-secondary {
+.wp-core-ui .accordion-section .button-secondary {
 	border: 1px solid #fff;
 	color: #fff;
 	line-height: 2.2;
 	min-height: 32px;
 }
-.wp-core-ui .button-secondary:hover, .wp-core-ui .button-secondary:focus {
+.wp-core-ui .accordion-section .button-secondary:hover, .wp-core-ui .accordion-section .button-secondary:focus {
 	border: 1px solid #fff;
 	color: #fff;
 }
-.newsexo-notice-started.notice-get-started-class {
+.newsexo-notice-started.notice-get-started-class, .notice.notice-success {
 	background-color: #FFFFFF;
 }
+.notice-success .notice-text{ font-size : 17px;}
