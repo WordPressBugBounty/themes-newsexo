@@ -543,6 +543,12 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/news-gallery-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-fourteen.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'EditorPress Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/editor-press-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-fifteen.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );
