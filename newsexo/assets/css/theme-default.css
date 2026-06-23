@@ -518,6 +518,9 @@ input[type="submit"]:focus {
 .sidebar .widget .wp-block-list li a {
     color: #0e98d6;
 }
+.sidebar .widget .wp-block-verse a {
+	color: #0e98d6;
+}
 
 /*Footer Sidebar Update Released*/
 .footer-sidebar .widget .wp-block-heading a {
