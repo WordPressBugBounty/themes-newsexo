@@ -617,9 +617,8 @@ add_action( 'ocdi/after_import', 'newsexo_ocdi_after_import_setup' );
   
 function display_upgrade_pro_admin_notice() {
 	   // Check if it's been dismissed...
-        if ( ! get_option('dismissed-upgrade_pro', FALSE ) ) {
     ?>
-    <div class="newsexo-notice-started updated notice notice-get-started-class is-dismissible" data-notice="upgrade_pro">
+    <div class="newsexo-notice-started updated notice notice-get-started-class" data-notice="upgrade_pro">
        		<p class="notice-text">
 				<?php
 				$current_user = wp_get_current_user();
@@ -650,6 +649,6 @@ function display_upgrade_pro_admin_notice() {
 				</a>
 			</div>
     </div>
-    <?php }
+    <?php
 }
 add_action( 'admin_notices', 'display_upgrade_pro_admin_notice' );

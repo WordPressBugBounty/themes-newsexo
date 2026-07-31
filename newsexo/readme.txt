@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: WordPress 4.7
 Tested up to: WordPress 7.0
 Requires PHP: 5.6
-Stable tag: 8.4
-Version: 8.4
+Stable tag: 8.5
+Version: 8.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout
@@ -77,6 +77,9 @@ https://stocksnap.io/photo/restaurant-food-WASS5H17GM
 https://pxhere.com/en/photo/560989
 
 == Changelog ==
+
+@Version 8.5
+* We have fixed the breadcrumbs widget space in the sidebar widget area.
 
 @Version 8.4
 * We added the default color of the wp-block-verse link for the footer sidebar widgets area.
