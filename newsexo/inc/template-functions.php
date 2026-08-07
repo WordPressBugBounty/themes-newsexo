@@ -549,6 +549,12 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/editor-press-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-fifteen.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'News Spark Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/news-spark-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-sixteen.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );
