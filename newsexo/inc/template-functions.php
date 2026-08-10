@@ -463,6 +463,18 @@ function newsexo_pro_ocdi_import_files() {
             'import_widget_file_url'     => 'https://themearile.com/demo-data/'.$athemeslug.'/widgets.wie',
             'import_customizer_file_url' => 'https://themearile.com/demo-data/'.$athemeslug.'/customizer.dat',
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/free-themes/'.$athemeslug.'-free-theme.jpg',
+			'import_notice'    => __( '
+                <div style="background-color: #f6f7f7; padding: 18px; margin-bottom: 25px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                    <strong style="font-size: 15px; color: #1d2327; display: block; margin-bottom: 12px;">💡 Import Tips for Best Results</strong>
+                    <p style="margin: 0 0 12px 0; color: #50575e; font-size: 13px;">To ensure a flawless setup, please complete these quick steps:</p>
+                    <ul style="margin: 0 0 15px 0; padding-left: 20px; line-height: 1.8; color: #3c434a; list-style-type: disc;">
+                        <li><strong>Start fresh:</strong> Begin with a clean or fully reset WordPress installation.</li>
+                        <li><strong>Be patient:</strong> Click "Import Demo Data" and wait for the success confirmation.</li>
+                        <li><strong>Import once:</strong> Do not re-import over existing data; reset WordPress if you need a clean retry.</li>
+                    </ul>
+                    <p style="margin: 0; font-size: 14px; color: #1d2327;"><strong>🎉 Enjoy your beautiful new demo site!</strong></p>
+                </div>
+            ', 'newsexo' ),
             'preview_url'                => 'https://'.$athemeslug.'.themearile.com/',
         ),
 		array(
