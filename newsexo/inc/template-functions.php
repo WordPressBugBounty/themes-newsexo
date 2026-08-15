@@ -670,3 +670,35 @@ function display_upgrade_pro_admin_notice() {
     <?php
 }
 add_action( 'admin_notices', 'display_upgrade_pro_admin_notice' );
+
+function ocdi_convert_demo_to_purchase_script() {
+    $screen = get_current_screen();
+    
+    // Ensure it only runs on the OCDI plugin page
+    if ( $screen && 'appearance_page_arile-demo-importer' === $screen->id ) {
+        ?>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                // Loop through each demo grid item
+                 $('.ocdi__gl-item').slice(1).each(function() {
+                    
+                        var $button = $(this).find('.ocdi__gl-item-button.button.button-primary');
+                        
+                        // Replace the button element with an anchor link styled as a button
+                        var $purchaseLink = $('<a>', {
+                            href: 'https://themearile.com/newsexo-pro-theme/', // Your purchase URL
+                            text: 'Purchase Now',
+                            class: $button.attr('class') + ' ',
+                            target: '_blank',
+                            style: 'background-color: #e43636;'
+                        });
+                        
+                        // Swap out the original trigger button
+                        $button.replaceWith($purchaseLink);
+                });
+            });
+        </script>
+        <?php
+    }
+}
+add_action( 'admin_footer', 'ocdi_convert_demo_to_purchase_script' );

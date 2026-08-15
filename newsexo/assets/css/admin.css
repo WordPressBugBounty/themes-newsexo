@@ -226,9 +226,6 @@ a.button.button-upgrade-pro:focus {
 .ocdi__theme-about {
     margin-top: 20px;
 }
-.ocdi__gl-item:nth-child(n+2) .ocdi__gl-item-buttons .button-primary {
-    display: none;
-}
 .ocdi__title-container {
     height: 45px;
 }
