@@ -75,6 +75,66 @@ if ( ! function_exists( 'newsexo_setup' ) ) :
 			
 		) );
 		
+		// Block Editor Support
+		add_theme_support('wp-block-styles');
+		add_theme_support('align-wide');
+		add_theme_support( 'align-full' );
+		add_theme_support('responsive-embeds');
+		add_theme_support('editor-styles');
+		add_editor_style('assets/css/editor-style.css');
+		
+		// Standard Editor Settings for Premium Patterns
+		add_theme_support('editor-color-palette', array(
+			array(
+				'name' => esc_html__('Primary', 'newsexo'),
+				'slug' => 'primary',
+				'color' => 'var(--newsexo-primary)',
+			),
+			array(
+				'name' => esc_html__('Secondary', 'newsexo'),
+				'slug' => 'secondary',
+				'color' => 'var(--newsexo-secondary)',
+			),
+			array(
+				'name' => esc_html__('Dark', 'newsexo'),
+				'slug' => 'dark',
+				'color' => '#111827',
+			),
+			array(
+				'name' => esc_html__('Light', 'newsexo'),
+				'slug' => 'light',
+				'color' => '#f9fafb',
+			),
+			array(
+				'name' => esc_html__('White', 'newsexo'),
+				'slug' => 'white',
+				'color' => '#ffffff',
+			),
+		));
+
+		add_theme_support('editor-font-sizes', array(
+			array(
+				'name' => esc_html__('Small', 'newsexo'),
+				'size' => 14,
+				'slug' => 'small'
+			),
+			array(
+				'name' => esc_html__('Normal', 'newsexo'),
+				'size' => 16,
+				'slug' => 'normal'
+			),
+			array(
+				'name' => esc_html__('Large', 'newsexo'),
+				'size' => 24,
+				'slug' => 'large'
+			),
+			array(
+				'name' => esc_html__('Huge', 'newsexo'),
+				'size' => 36,
+				'slug' => 'huge'
+			)
+		));
+		
 		/**
 		 * Enable support for Post Formats.
 		 *
@@ -99,6 +159,41 @@ if ( ! function_exists( 'newsexo_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'newsexo_setup' );
+
+/**
+ * Register block styles.
+ */
+function newsexo_register_block_styles()
+{
+    register_block_style('core/button', array(
+        'name' => 'newsexo-rounded',
+        'label' => __('Rounded', 'newsexo'),
+    ));
+    register_block_style('core/button', array(
+        'name' => 'newsexo-outline',
+        'label' => __('Outline', 'newsexo'),
+    ));
+    register_block_style('core/group', array(
+        'name' => 'newsexo-card',
+        'label' => __('Card', 'newsexo'),
+    ));
+    register_block_style('core/list', array(
+        'name' => 'checkmark',
+        'label' => __('Checkmark', 'newsexo'),
+    ));
+}
+add_action('init', 'newsexo_register_block_styles');
+
+/**
+ * Register block patterns.
+ */
+function newsexo_register_block_patterns()
+{
+    register_block_pattern_category('newsexo', array(
+        'label' => __('NewsExo', 'newsexo'),
+    ));
+}
+add_action('init', 'newsexo_register_block_patterns');
 
 add_filter('woocommerce_show_page_title', '__return_false');
 

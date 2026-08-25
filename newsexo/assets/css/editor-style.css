@@ -1,0 +1,18 @@
+/**
+ * Editor Styles for NewsExo Theme
+ * 
+ * These styles apply to the WordPress block editor (Gutenberg)
+ * to provide a more consistent editing experience.
+ */
+
+/* Typography */
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1f2024;
+}
