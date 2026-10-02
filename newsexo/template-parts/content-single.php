@@ -12,7 +12,7 @@ $newsexo_single_post_author_details_enable = get_theme_mod( 'newsexo_single_post
 $newsexo_related_post_section_title = get_theme_mod( 'newsexo_related_post_section_title', 'Related Story' );
 $activate_theme_data = wp_get_theme(); // getting current theme data
 $activate_theme = $activate_theme_data->name;
-if( 'News Digest' == $activate_theme ){
+if( 'News Digest' == $activate_theme || 'News Techno' == $activate_theme){
 	$vrsn_two_class = 'vrsn-three';
 }
 elseif( 'Medford News' == $activate_theme || 'News Mart' == $activate_theme){

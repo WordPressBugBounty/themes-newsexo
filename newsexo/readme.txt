@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: WordPress 4.7
 Tested up to: WordPress 7.1
 Requires PHP: 5.6
-Stable tag: 9.1
-Version: 9.1
+Stable tag: 9.2
+Version: 9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout, wide-blocks, block-styles, block-patterns
@@ -78,10 +78,13 @@ https://pxhere.com/en/photo/560989
 
 == Changelog ==
 
-= Version 9.1
+@Version 9.2
+* Added the News Techno child theme support.
+
+@Version 9.1
 * We have fixed the sidebar issue in child themes.
 
-= Version 9.0
+@Version 9.0
 * We added the top space to the wp-block-tab-panels in the wp-block-tabs sidebar widget.
 
 @Version 8.9

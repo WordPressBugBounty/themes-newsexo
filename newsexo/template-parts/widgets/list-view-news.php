@@ -42,7 +42,7 @@ class NewsExo_List_View_News_Widget extends WP_Widget {
                     <?php
 					$activate_theme_data = wp_get_theme(); // getting current theme data
 					$activate_theme = $activate_theme_data->name;
-					if( 'News Digest' == $activate_theme ){
+					if( 'News Digest' == $activate_theme || 'News Techno' == $activate_theme){
 						$vrsn_two_class = 'vrsn-three';
 					}
 					elseif( 'Medford News' == $activate_theme || 'News Mart' == $activate_theme){
