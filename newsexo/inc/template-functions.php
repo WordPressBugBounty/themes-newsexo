@@ -573,6 +573,12 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/news-techno-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-seventeen.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'Travel Edition Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/travel-edition-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-eighteen.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );
