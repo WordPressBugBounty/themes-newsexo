@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: WordPress 4.7
 Tested up to: WordPress 7.1
 Requires PHP: 5.6
-Stable tag: 9.5
-Version: 9.5
+Stable tag: 9.6
+Version: 9.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, photography, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, rtl-language-support, one-column, two-columns, full-width-template, sticky-post, right-sidebar, footer-widgets, grid-layout, wide-blocks, block-styles, block-patterns
@@ -77,6 +77,9 @@ https://stocksnap.io/photo/restaurant-food-WASS5H17GM
 https://pxhere.com/en/photo/560989
 
 == Changelog ==
+
+@Version 9.6
+* We have update the admin theme string.
 
 @Version 9.5
 * We have added the background color and background hover color of the accordion widget in the blog post and sidebar widget area.
