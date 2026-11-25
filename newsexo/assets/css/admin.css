@@ -311,4 +311,9 @@ a.button.button-upgrade-pro:focus {
 .newsexo-notice-started.notice-get-started-class, .notice.notice-success {
 	background-color: #FFFFFF;
 }
-.notice-success .notice-text{ font-size : 17px;}
+.notice-success .notice-text { font-size : 17px;}
+.notice-text .offer { 
+	font-size : 24px;
+	color : #e43636;
+	font-weight: 700;
+}

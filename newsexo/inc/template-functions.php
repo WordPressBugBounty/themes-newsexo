@@ -579,6 +579,12 @@ function newsexo_pro_ocdi_import_files() {
             'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/travel-edition-pro-screenshot.jpg',
             'preview_url'                => 'https://newsexo-pro-eighteen.themearile.com/',
         ),
+		array(
+            'import_file_name'           => 'NewsExo Dark Pro',
+			'categories'                 => [ 'Pro' ],
+            'import_preview_image_url'   => 'https://themearile.com/wp-content/themes/themearile-pro/assets/img/newsexo-pro/newsexo-dark-pro-screenshot.jpg',
+            'preview_url'                => 'https://newsexo-pro-nineteen.themearile.com/',
+        ),
     );
 }
 add_filter( 'pt-ocdi/import_files', 'newsexo_pro_ocdi_import_files' );
@@ -662,7 +668,7 @@ function display_upgrade_pro_admin_notice() {
 					),
 					'<strong>' . esc_html( $current_user->display_name ) . '</strong>',
 					'<strong>' . esc_html( $theme_info->Name ). '</strong>',
-					'<strong>Unlock premium features with 20% OFF</strong>',
+					'<strong>Unlock premium features with <span class="offer">Limited Time Offer - FLAT 50% OFF</span></strong>',
 					'<strong>Pro version</strong>',
 				);
 				?>
